@@ -37,7 +37,7 @@ def listen():
 
 def chat_with_gpt(prompt):
     try:
-        client = openai.OpenAI(api_key="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")  # Use api
+        client = openai.OpenAI(api_key="USE_YOUR_API_HERE")  # Use api
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             # model="gpt-3.5-turbo",
